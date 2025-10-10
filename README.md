@@ -54,7 +54,7 @@ Users can query the system in natural language to retrieve meaningful informatio
 
 ### 2️⃣ Clone Repository
 ```bash
-git clone https://github.com/<your-username>/ragfood.git
+git clone https://github.com/gocallum/ragfood.git
 cd ragfood
 ```
 
