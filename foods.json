@@ -106,8 +106,8 @@
     "text": "Lassi is a cold yogurt drink blended with sugar, salt, or fruits like mango.",
     "region": "Punjab",
     "type": "Drink"
-  }, 
-   {
+  },
+  {
     "id": "19",
     "text": "Momo is a type of South Asian dumpling popular in Nepal, filled with meat or vegetables and served with spicy chutney.",
     "region": "Nepal",
@@ -190,8 +190,8 @@
     "text": "Halo-halo is a Filipino dessert made from crushed ice, evaporated milk, and mixed ingredients like sweet beans, fruits, and jellies.",
     "region": "Philippines",
     "type": "Dessert"
-  }, 
-    {
+  },
+  {
     "id": "33",
     "text": "Peking duck is a famous Beijing dish featuring crispy roasted duck served with pancakes, hoisin sauce, and scallions.",
     "region": "China",
@@ -238,215 +238,568 @@
     "text": "Mooncake is a traditional Chinese pastry filled with lotus seed paste or red bean, eaten during the Mid-Autumn Festival.",
     "region": "China",
     "type": "Dessert"
-  }, 
+  },
   {
-  "id": "41",
-  "text": "Kimchi is a traditional Korean side dish made from fermented vegetables, usually cabbage and radish, with chili pepper and garlic.",
-  "region": "Korea",
-  "type": "Side Dish"
-},
-{
-  "id": "42",
-  "text": "Bibimbap is a Korean mixed rice dish topped with sautéed vegetables, sliced meat, a fried egg, and chili paste.",
-  "region": "Korea",
-  "type": "Main Course"
-},
-{
-  "id": "43",
-  "text": "Tteokbokki is a popular Korean street food made of chewy rice cakes in a spicy red sauce.",
-  "region": "Korea",
-  "type": "Snack"
-}, 
-{
-  "id": "44",
-  "text": "Beef noodle soup is a beloved Taiwanese dish made with braised beef, vegetables, and noodles in a flavorful broth.",
-  "region": "Taiwan",
-  "type": "Soup"
-},
-{
-  "id": "45",
-  "text": "Lu rou fan is a classic Taiwanese comfort food of minced pork belly cooked in soy sauce, served over rice.",
-  "region": "Taiwan",
-  "type": "Main Course"
-},
-{
-  "id": "46",
-  "text": "Bubble tea is a Taiwanese drink made with tea, milk, and chewy tapioca pearls.",
-  "region": "Taiwan",
-  "type": "Drink"
-}, 
-{
-  "id": "47",
-  "text": "Char siu is a Cantonese-style barbecued pork known for its sweet and savory glaze.",
-  "region": "Hong Kong",
-  "type": "Main Course"
-},
-{
-  "id": "48",
-  "text": "Egg tarts are a popular Hong Kong dessert consisting of a flaky pastry crust filled with egg custard.",
-  "region": "Hong Kong",
-  "type": "Dessert"
-},
-{
-  "id": "49",
-  "text": "Wonton noodles are a Hong Kong dish made with thin egg noodles and wontons in a clear broth.",
-  "region": "Hong Kong",
-  "type": "Noodle"
-}, 
-{
-  "id": "50",
-  "text": "Meat pie is an iconic Australian dish consisting of a flaky pastry filled with minced meat and gravy.",
-  "region": "Australia",
-  "type": "Snack"
-},
-{
-  "id": "51",
-  "text": "Lamingtons are sponge cakes coated in chocolate and rolled in coconut, a popular Australian dessert.",
-  "region": "Australia",
-  "type": "Dessert"
-} ,
-{
-  "id": "52",
-  "text": "Pavlova is a meringue-based dessert topped with fresh fruit and cream, considered a national dish of New Zealand.",
-  "region": "New Zealand",
-  "type": "Dessert"
-},
-{
-  "id": "53",
-  "text": "Hangi is a traditional Māori method of cooking meat and vegetables in an underground oven.",
-  "region": "New Zealand",
-  "type": "Main Course"
-},
-{
-  "id": "54",
-  "text": "Palusami is a Polynesian dish of taro leaves filled with coconut cream and sometimes meat, baked in banana leaves.",
-  "region": "Samoa, South Pacific",
-  "type": "Main Course"
-},
-{
-  "id": "55",
-  "text": "Oka is a Samoan raw fish salad marinated in citrus and coconut milk, similar to ceviche.",
-  "region": "Samoa, South Pacific",
-  "type": "Appetizer"
-},
-{
-  "id": "56",
-  "text": "Lovo is a Fijian feast where food is wrapped in banana leaves and cooked in an earth oven.",
-  "region": "Fiji, South Pacific",
-  "type": "Main Course"
-}
-,
-{
-  "id": "57",
-  "text": "Kokoda is a Fijian dish of raw fish marinated in lime juice and coconut milk, similar to ceviche.",
-  "region": "Fiji, South Pacific",
-  "type": "Appetizer"
-},
-{
-  "id": "58",
-  "text": "Poke is a Hawaiian dish of diced raw fish, typically seasoned with soy sauce and sesame oil.",
-  "region": "Hawaii, USA",
-  "type": "Appetizer"
-},
-{
-  "id": "59",
-  "text": "Spam musubi is a Hawaiian snack made of rice and Spam wrapped in seaweed.",
-  "region": "Hawaii, USA",
-  "type": "Snack"
-},
-{  "id": "60",
-  "text": "Loco moco is a Hawaiian dish consisting of rice topped with a hamburger patty, fried egg, and brown gravy.",
-  "region": "Hawaii, USA",
-  "type": "Main Course"
-},
-{
-  "id": "61",
-  "text": "Sushi is a Japanese dish of vinegared rice combined with seafood, vegetables, and sometimes tropical fruits.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "62",
-  "text": "Ramen is a Japanese noodle soup dish with Chinese-style wheat noodles served in a meat or fish-based broth.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "63",
-  "text": "Tempura is a Japanese dish of seafood or vegetables that have been battered and deep-fried.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "64",
-  "text": "Miso soup is a traditional Japanese soup consisting of a stock called dashi into which softened miso paste is mixed.",
-  "region": "Japan",
-  "type": "Soup"
-},
-{
-  "id": "65",
-  "text": "Okonomiyaki is a savory Japanese pancake containing a variety of ingredients.",
-  "region": "Japan",
-  "type": "Main Course"
-},
-{
-  "id": "66",
-  "text": "Hummus is a Middle Eastern dip or spread made from cooked, mashed chickpeas blended with tahini, olive oil, lemon juice, and garlic.",
-  "region": "Middle East",
-  "type": "Appetizer"
-},
-{
-  "id": "67",
-  "text": "Falafel consists of deep-fried balls of ground chickpeas or fava beans, typically served in pita bread.",
-  "region": "Middle East",
-  "type": "Main Course"
-},
-{
-  "id": "68",
-  "text": "Shawarma is a Middle Eastern meat preparation where thin slices of lamb, chicken, or beef are stacked and roasted on a vertical rotisserie.",
-  "region": "Middle East",
-  "type": "Main Course"
-},
-{
-  "id": "69",
-  "text": "Tabbouleh is a Levantine vegetarian salad made of finely chopped parsley, tomatoes, mint, and bulgur.",
-  "region": "Middle East",
-  "type": "Salad"
-},
-{
-  "id": "70",
-  "text": "Baklava is a rich, sweet dessert pastry made of layers of filo filled with chopped nuts and sweetened with syrup or honey.",
-  "region": "Middle East",
-  "type": "Dessert"
-},
-{
-  "id": "71",
-  "text": "Buuz are Mongolian steamed dumplings filled with minced meat, typically mutton or beef.",
-  "region": "Mongolia",
-  "type": "Main Course"
-},
-{
-  "id": "72",
-  "text": "Khorkhog is a Mongolian barbecue dish where meat is cooked with hot stones inside a sealed container.",
-  "region": "Mongolia",
-  "type": "Main Course"
-},
-{
-  "id": "73",
-  "text": "Airag is a traditional Mongolian alcoholic drink made from fermented mare's milk.",
-  "region": "Mongolia",
-  "type": "Beverage"
-},
-{
-  "id": "74",
-  "text": "Boortsog are Mongolian deep-fried cookies often served with tea or used as a dessert.",
-  "region": "Mongolia",
-  "type": "Dessert"
-},
-{
-  "id": "75",
-  "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
-  "region": "Mongolia",
-  "type": "Beverage"
-}
+    "id": "41",
+    "text": "Kimchi is a traditional Korean side dish made from fermented vegetables, usually cabbage and radish, with chili pepper and garlic.",
+    "region": "Korea",
+    "type": "Side Dish"
+  },
+  {
+    "id": "42",
+    "text": "Bibimbap is a Korean mixed rice dish topped with sautéed vegetables, sliced meat, a fried egg, and chili paste.",
+    "region": "Korea",
+    "type": "Main Course"
+  },
+  {
+    "id": "43",
+    "text": "Tteokbokki is a popular Korean street food made of chewy rice cakes in a spicy red sauce.",
+    "region": "Korea",
+    "type": "Snack"
+  },
+  {
+    "id": "44",
+    "text": "Beef noodle soup is a beloved Taiwanese dish made with braised beef, vegetables, and noodles in a flavorful broth.",
+    "region": "Taiwan",
+    "type": "Soup"
+  },
+  {
+    "id": "45",
+    "text": "Lu rou fan is a classic Taiwanese comfort food of minced pork belly cooked in soy sauce, served over rice.",
+    "region": "Taiwan",
+    "type": "Main Course"
+  },
+  {
+    "id": "46",
+    "text": "Bubble tea is a Taiwanese drink made with tea, milk, and chewy tapioca pearls.",
+    "region": "Taiwan",
+    "type": "Drink"
+  },
+  {
+    "id": "47",
+    "text": "Char siu is a Cantonese-style barbecued pork known for its sweet and savory glaze.",
+    "region": "Hong Kong",
+    "type": "Main Course"
+  },
+  {
+    "id": "48",
+    "text": "Egg tarts are a popular Hong Kong dessert consisting of a flaky pastry crust filled with egg custard.",
+    "region": "Hong Kong",
+    "type": "Dessert"
+  },
+  {
+    "id": "49",
+    "text": "Wonton noodles are a Hong Kong dish made with thin egg noodles and wontons in a clear broth.",
+    "region": "Hong Kong",
+    "type": "Noodle"
+  },
+  {
+    "id": "50",
+    "text": "Meat pie is an iconic Australian dish consisting of a flaky pastry filled with minced meat and gravy.",
+    "region": "Australia",
+    "type": "Snack"
+  },
+  {
+    "id": "51",
+    "text": "Lamingtons are sponge cakes coated in chocolate and rolled in coconut, a popular Australian dessert.",
+    "region": "Australia",
+    "type": "Dessert"
+  },
+  {
+    "id": "52",
+    "text": "Pavlova is a meringue-based dessert topped with fresh fruit and cream, considered a national dish of New Zealand.",
+    "region": "New Zealand",
+    "type": "Dessert"
+  },
+  {
+    "id": "53",
+    "text": "Hangi is a traditional Māori method of cooking meat and vegetables in an underground oven.",
+    "region": "New Zealand",
+    "type": "Main Course"
+  },
+  {
+    "id": "54",
+    "text": "Palusami is a Polynesian dish of taro leaves filled with coconut cream and sometimes meat, baked in banana leaves.",
+    "region": "Samoa, South Pacific",
+    "type": "Main Course"
+  },
+  {
+    "id": "55",
+    "text": "Oka is a Samoan raw fish salad marinated in citrus and coconut milk, similar to ceviche.",
+    "region": "Samoa, South Pacific",
+    "type": "Appetizer"
+  },
+  {
+    "id": "56",
+    "text": "Lovo is a Fijian feast where food is wrapped in banana leaves and cooked in an earth oven.",
+    "region": "Fiji, South Pacific",
+    "type": "Main Course"
+  },
+  {
+    "id": "57",
+    "text": "Kokoda is a Fijian dish of raw fish marinated in lime juice and coconut milk, similar to ceviche.",
+    "region": "Fiji, South Pacific",
+    "type": "Appetizer"
+  },
+  {
+    "id": "58",
+    "text": "Poke is a Hawaiian dish of diced raw fish, typically seasoned with soy sauce and sesame oil.",
+    "region": "Hawaii, USA",
+    "type": "Appetizer"
+  },
+  {
+    "id": "59",
+    "text": "Spam musubi is a Hawaiian snack made of rice and Spam wrapped in seaweed.",
+    "region": "Hawaii, USA",
+    "type": "Snack"
+  },
+  {
+    "id": "60",
+    "text": "Loco moco is a Hawaiian dish consisting of rice topped with a hamburger patty, fried egg, and brown gravy.",
+    "region": "Hawaii, USA",
+    "type": "Main Course"
+  },
+  {
+    "id": "61",
+    "text": "Sushi is a Japanese dish of vinegared rice combined with seafood, vegetables, and sometimes tropical fruits.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "62",
+    "text": "Ramen is a Japanese noodle soup dish with Chinese-style wheat noodles served in a meat or fish-based broth.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "63",
+    "text": "Tempura is a Japanese dish of seafood or vegetables that have been battered and deep-fried.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "64",
+    "text": "Miso soup is a traditional Japanese soup consisting of a stock called dashi into which softened miso paste is mixed.",
+    "region": "Japan",
+    "type": "Soup"
+  },
+  {
+    "id": "65",
+    "text": "Okonomiyaki is a savory Japanese pancake containing a variety of ingredients.",
+    "region": "Japan",
+    "type": "Main Course"
+  },
+  {
+    "id": "66",
+    "text": "Hummus is a Middle Eastern dip or spread made from cooked, mashed chickpeas blended with tahini, olive oil, lemon juice, and garlic.",
+    "region": "Middle East",
+    "type": "Appetizer"
+  },
+  {
+    "id": "67",
+    "text": "Falafel consists of deep-fried balls of ground chickpeas or fava beans, typically served in pita bread.",
+    "region": "Middle East",
+    "type": "Main Course"
+  },
+  {
+    "id": "68",
+    "text": "Shawarma is a Middle Eastern meat preparation where thin slices of lamb, chicken, or beef are stacked and roasted on a vertical rotisserie.",
+    "region": "Middle East",
+    "type": "Main Course"
+  },
+  {
+    "id": "69",
+    "text": "Tabbouleh is a Levantine vegetarian salad made of finely chopped parsley, tomatoes, mint, and bulgur.",
+    "region": "Middle East",
+    "type": "Salad"
+  },
+  {
+    "id": "70",
+    "text": "Baklava is a rich, sweet dessert pastry made of layers of filo filled with chopped nuts and sweetened with syrup or honey.",
+    "region": "Middle East",
+    "type": "Dessert"
+  },
+  {
+    "id": "71",
+    "text": "Buuz are Mongolian steamed dumplings filled with minced meat, typically mutton or beef.",
+    "region": "Mongolia",
+    "type": "Main Course"
+  },
+  {
+    "id": "72",
+    "text": "Khorkhog is a Mongolian barbecue dish where meat is cooked with hot stones inside a sealed container.",
+    "region": "Mongolia",
+    "type": "Main Course"
+  },
+  {
+    "id": "73",
+    "text": "Airag is a traditional Mongolian alcoholic drink made from fermented mare's milk.",
+    "region": "Mongolia",
+    "type": "Beverage"
+  },
+  {
+    "id": "74",
+    "text": "Boortsog are Mongolian deep-fried cookies often served with tea or used as a dessert.",
+    "region": "Mongolia",
+    "type": "Dessert"
+  },
+  {
+    "id": "75",
+    "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
+    "region": "Mongolia",
+    "type": "Beverage"
+  },
+  {
+    "name": "Kacchi Biryani",
+    "category": "Rice & Meat",
+    "origin": "Bangladesh (Dhaka)",
+    "ingredients": [
+      "mutton",
+      "basmati rice",
+      "yogurt",
+      "fried onions",
+      "ghee",
+      "saffron",
+      "garam masala",
+      "green chilies",
+      "ginger",
+      "garlic",
+      "salt"
+    ],
+    "preparation_method": "Marinate mutton overnight. Layer raw marinated meat with parboiled rice, fried onions, and ghee. Seal and cook on low heat (dum) until tender.",
+    "nutritional_highlights": "High-protein from mutton; moderate fats from ghee; carbohydrates from rice; spices provide polyphenols.",
+    "cultural_significance": "A centerpiece of Bangladeshi weddings and Eid feasts, symbolizing generosity and hospitality.",
+    "dietary_classifications": [
+      "gluten-free"
+    ],
+    "id": "76",
+    "text": "Kacchi Biryani is a celebratory Bangladeshi dish made by layering raw marinated mutton with fragrant basmati rice, fried onions, and aromatic spices, then sealing the pot for a slow dum cook. The meat tenderizes while the rice absorbs saffron, ghee, and spice aromas. Traditionally served at weddings and festivals, it’s prized for its depth of flavor and distinct grain separation, offering a balanced richness that feels both indulgent and refined."
+  },
+  {
+    "name": "Bhapa Ilish",
+    "category": "Fish",
+    "origin": "Bangladesh (Delta region)",
+    "ingredients": [
+      "hilsa fish",
+      "mustard paste",
+      "yogurt",
+      "green chili",
+      "turmeric",
+      "mustard oil",
+      "salt"
+    ],
+    "preparation_method": "Coat fish with mustard-yogurt mixture, chilies, and turmeric. Steam in a sealed container until just cooked.",
+    "nutritional_highlights": "Rich in omega‑3 fats; protein-dense; mustard provides allyl isothiocyanate compounds.",
+    "cultural_significance": "Hilsa is culturally revered; this dish is common during monsoon season and festive family meals.",
+    "dietary_classifications": [
+      "gluten-free"
+    ],
+    "id": "77",
+    "text": "Bhapa Ilish features hilsa, Bangladesh’s national fish, steamed gently in a mustard-yogurt paste inside a tightly covered vessel. The technique locks in the fish’s natural oils, producing a silky, aromatic sauce with a pleasant mustard heat. Served with plain rice, it highlights how minimal ingredients and careful steaming can create a luxurious, nuanced flavor."
+  },
+  {
+    "name": "Panta Bhat",
+    "category": "Rice",
+    "origin": "Bangladesh (Rural)",
+    "ingredients": [
+      "cooked rice",
+      "water",
+      "salt",
+      "green chili",
+      "onion",
+      "lemon"
+    ],
+    "preparation_method": "Soak leftover rice in water overnight. Drain slightly and serve cold with salt, chilies, onions, and lemon.",
+    "nutritional_highlights": "Carbohydrates for energy; mild probiotics from fermentation; low fat.",
+    "cultural_significance": "A classic Pohela Boishakh (Bengali New Year) breakfast; associated with agrarian roots and summer heat relief.",
+    "dietary_classifications": [
+      "vegan",
+      "gluten-free"
+    ],
+    "id": "78",
+    "text": "Panta Bhat is day-old rice soaked in water and lightly fermented overnight, then served chilled with salt, chilies, and onions. It’s refreshing in hot weather, easy to digest, and paired with fried fish or bhorta. Beyond sustenance, it represents thrift and sustainability by transforming leftovers into a tangy, probiotic-rich staple."
+  },
+  {
+    "name": "Shorshe Chingri",
+    "category": "Seafood",
+    "origin": "Bengal region",
+    "ingredients": [
+      "prawns",
+      "mustard paste",
+      "mustard oil",
+      "onion",
+      "turmeric",
+      "green chili",
+      "salt"
+    ],
+    "preparation_method": "Sauté mustard paste in mustard oil; add prawns, onion, chilies, and turmeric; simmer briefly until just cooked.",
+    "nutritional_highlights": "Lean protein; low saturated fat; omega‑3 and minerals from seafood; mustard offers antioxidants.",
+    "cultural_significance": "A household favorite for special lunches; showcases quintessential Bengali mustard technique.",
+    "dietary_classifications": [
+      "gluten-free"
+    ],
+    "id": "79",
+    "text": "Shorshe Chingri is prawns cooked in a punchy mustard sauce, balancing heat, nuttiness, and sweetness from onions. Mustard oil and green chilies add a vivid aroma and clean finish. Best served with steamed rice, it demonstrates the Bengali love for bold mustard flavors and quick, gentle cooking of seafood."
+  },
+  {
+    "name": "Fuchka (Pani Puri)",
+    "category": "Street Food",
+    "origin": "Bangladesh/India (Bengal)",
+    "ingredients": [
+      "semolina shells",
+      "potatoes",
+      "chickpeas",
+      "tamarind",
+      "cumin",
+      "chili powder",
+      "black salt",
+      "coriander"
+    ],
+    "preparation_method": "Fill hollow shells with seasoned potato-chickpea mix. Dip or pour in tangy tamarind water and eat immediately.",
+    "nutritional_highlights": "Carbs from shells and potatoes; plant protein from chickpeas; spices aid digestion.",
+    "cultural_significance": "Iconic evening street snack and a communal eating ritual with friends and family.",
+    "dietary_classifications": [
+      "vegetarian"
+    ],
+    "id": "80",
+    "text": "Fuchka are crisp semolina shells stuffed with tangy tamarind water, spiced mashed potatoes, and chickpeas. Vendors customize heat, sourness, and salt to taste, making it a playful, social street snack. Each bite delivers crunch, acidity, and spice, capturing the lively snacking culture of South Asia."
+  },
+  {
+    "name": "Quinoa Kale Power Salad",
+    "category": "Salad",
+    "origin": "Global (Modern)",
+    "ingredients": [
+      "quinoa",
+      "kale",
+      "cherry tomatoes",
+      "cucumber",
+      "pumpkin seeds",
+      "lemon",
+      "garlic",
+      "olive oil",
+      "salt",
+      "pepper",
+      "feta (optional)",
+      "avocado (optional)"
+    ],
+    "preparation_method": "Cook quinoa; massage kale with olive oil. Combine with vegetables and seeds; toss with lemon-garlic dressing.",
+    "nutritional_highlights": "Complete protein from quinoa; fiber-rich; vitamin K and C; healthy fats from olive oil and seeds.",
+    "cultural_significance": "Represents modern health-focused bowls popular in cafés and home meal prep.",
+    "dietary_classifications": [
+      "vegetarian",
+      "gluten-free",
+      "vegan-optional"
+    ],
+    "id": "81",
+    "text": "This hearty salad combines fluffy quinoa with massaged kale, cherry tomatoes, cucumbers, and toasted seeds for texture. A lemon-garlic dressing brightens the bowl, while optional feta or avocado adds creaminess. It’s designed to be meal-prep friendly, delivering fiber, complete plant protein, and micronutrients in a satisfying, portable format."
+  },
+  {
+    "name": "Grilled Salmon with Broccoli",
+    "category": "Main",
+    "origin": "Global",
+    "ingredients": [
+      "salmon fillets",
+      "garlic",
+      "black pepper",
+      "lemon",
+      "olive oil",
+      "salt",
+      "broccoli"
+    ],
+    "preparation_method": "Season salmon and grill or pan-sear; steam broccoli; finish with lemon and olive oil.",
+    "nutritional_highlights": "High in omega‑3s and protein; fiber and vitamin C from broccoli; low refined carbs.",
+    "cultural_significance": "Common in contemporary healthy eating plans emphasizing whole foods.",
+    "dietary_classifications": [
+      "gluten-free"
+    ],
+    "id": "82",
+    "text": "A simple weeknight staple: salmon fillets rubbed with garlic and pepper, grilled until flaky, served with steamed broccoli and a squeeze of lemon. The method preserves delicate omega‑3 fats and keeps the plate light. It’s a reliable, quick path to a nutrient-dense dinner that suits many dietary patterns."
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "category": "Breakfast/Dessert",
+    "origin": "Mediterranean-inspired",
+    "ingredients": [
+      "Greek yogurt",
+      "mixed berries",
+      "honey",
+      "toasted oats",
+      "almonds"
+    ],
+    "preparation_method": "Layer yogurt with berries, oats, and nuts; drizzle with honey just before serving.",
+    "nutritional_highlights": "Protein and probiotics from yogurt; antioxidants from berries; fiber from oats and nuts.",
+    "cultural_significance": "A café-friendly, health-forward twist on classic yogurt bowls.",
+    "dietary_classifications": [
+      "vegetarian",
+      "gluten-free-optional"
+    ],
+    "id": "83",
+    "text": "Thick Greek yogurt layered with berries, toasted oats or nuts, and a drizzle of honey provides a creamy, crunchy, and tangy contrast. It’s a versatile base for seasonal fruit, delivering protein and probiotics in a dessert-like form that still aligns with balanced eating goals."
+  },
+  {
+    "name": "Masoor Dal (Red Lentil Soup)",
+    "category": "Soup",
+    "origin": "South Asia",
+    "ingredients": [
+      "red lentils",
+      "turmeric",
+      "tomato",
+      "garlic",
+      "cumin",
+      "chili",
+      "onion",
+      "salt",
+      "oil"
+    ],
+    "preparation_method": "Boil lentils with turmeric and tomatoes. Temper cumin, chili, and onions in oil; pour over dal and simmer.",
+    "nutritional_highlights": "High plant protein and fiber; folate and iron; low fat.",
+    "cultural_significance": "Daily staple in South Asian homes, served with rice or flatbread.",
+    "dietary_classifications": [
+      "vegan",
+      "gluten-free"
+    ],
+    "id": "84",
+    "text": "Masoor Dal simmers quick-cooking red lentils with turmeric, garlic, and tomatoes into a comforting soup. A finishing temper of fried cumin and chilies adds aroma. It’s budget-friendly, protein-rich, and endlessly adaptable, forming the backbone of many vegetarian meals across the subcontinent."
+  },
+  {
+    "name": "Kale & Chickpea Stir-Fry",
+    "category": "Stir-Fry",
+    "origin": "Global (Modern)",
+    "ingredients": [
+      "kale",
+      "chickpeas",
+      "onion",
+      "garlic",
+      "olive oil",
+      "lemon",
+      "salt",
+      "pepper"
+    ],
+    "preparation_method": "Sauté aromatics, add kale to wilt, then stir in chickpeas; season and finish with lemon.",
+    "nutritional_highlights": "Fiber, plant protein, iron; healthy fats; low glycemic load.",
+    "cultural_significance": "Reflects the global move toward quick plant-based meals.",
+    "dietary_classifications": [
+      "vegan",
+      "gluten-free"
+    ],
+    "id": "85",
+    "text": "A fast skillet stir-fry that sautés onion, garlic, and kale with canned chickpeas and a splash of lemon. It’s weekday cooking at its best—minimal prep, pantry-friendly, and scalable—providing a filling, fiber-rich, plant-based entrée or side."
+  },
+  {
+    "name": "Sushi Nigiri",
+    "category": "Seafood/Rice",
+    "origin": "Japan",
+    "ingredients": [
+      "sushi rice",
+      "rice vinegar",
+      "sugar",
+      "salt",
+      "raw fish (tuna/salmon)",
+      "wasabi",
+      "soy sauce"
+    ],
+    "preparation_method": "Season rice; shape into oblong mounds; top with sliced fish and a touch of wasabi; serve with soy.",
+    "nutritional_highlights": "Lean protein; omega‑3s; moderate carbohydrates; low saturated fat.",
+    "cultural_significance": "A showcase of Japanese craftsmanship and respect for seasonal seafood.",
+    "dietary_classifications": [
+      "gluten-free-optional"
+    ],
+    "id": "86",
+    "text": "Sushi Nigiri pairs vinegared rice with a thin slice of fresh seafood such as tuna or salmon. Precision in rice texture and knife work defines quality, while a light brush of soy and wasabi under the fish creates harmony. The simplicity emphasizes ingredient purity and skilled technique."
+  },
+  {
+    "name": "Margherita Pizza",
+    "category": "Bread/Main",
+    "origin": "Italy (Naples)",
+    "ingredients": [
+      "pizza dough",
+      "tomatoes",
+      "mozzarella",
+      "basil",
+      "olive oil",
+      "salt"
+    ],
+    "preparation_method": "Stretch dough; top with tomatoes and mozzarella; bake at very high heat; garnish with basil and oil.",
+    "nutritional_highlights": "Carbs from crust; calcium and protein from cheese; lycopene from tomatoes.",
+    "cultural_significance": "Icon of Italian culinary identity, symbolizing the colors of the national flag.",
+    "dietary_classifications": [
+      "vegetarian"
+    ],
+    "id": "87",
+    "text": "Margherita Pizza features a thin, blistered crust topped with crushed tomatoes, fresh mozzarella, basil leaves, and olive oil. Baked quickly at high heat, it balances acidity, creaminess, and herbal notes. It’s the archetype of Neapolitan pizza, prized for restraint and quality of core ingredients."
+  },
+  {
+    "name": "Tacos al Pastor",
+    "category": "Street Food",
+    "origin": "Mexico",
+    "ingredients": [
+      "pork",
+      "achiote",
+      "guajillo chilies",
+      "pineapple",
+      "vinegar",
+      "garlic",
+      "tortillas",
+      "onion",
+      "coriander"
+    ],
+    "preparation_method": "Marinate pork; cook on a rotating spit or grill; shave into tortillas; finish with onion, coriander, and salsa.",
+    "nutritional_highlights": "Protein-rich; moderate fat; carbohydrates from tortillas; vitamin C from pineapple and salsas.",
+    "cultural_significance": "A beloved late-night street taco with immigrant culinary roots.",
+    "dietary_classifications": [],
+    "id": "88",
+    "text": "Tacos al Pastor use thinly sliced pork marinated with chilies, achiote, and pineapple, cooked on a vertical spit and shaved into tortillas. Onion, coriander, and salsa add brightness to the savory-sweet meat. The technique evolved from Middle Eastern shawarma, becoming a hallmark of Mexican street cuisine."
+  },
+  {
+    "name": "Pad Thai",
+    "category": "Noodles",
+    "origin": "Thailand",
+    "ingredients": [
+      "rice noodles",
+      "egg",
+      "tamarind",
+      "fish sauce",
+      "tofu",
+      "dried shrimp",
+      "bean sprouts",
+      "peanuts",
+      "lime",
+      "garlic",
+      "chili"
+    ],
+    "preparation_method": "Soak noodles; stir-fry aromatics and proteins; add noodles with tamarind and fish sauce; finish with sprouts and peanuts.",
+    "nutritional_highlights": "Moderate protein; carbs from noodles; healthy fats from peanuts; vitamin C from lime.",
+    "cultural_significance": "A national favorite that showcases Thai flavor balance and wok technique.",
+    "dietary_classifications": [
+      "gluten-free-optional"
+    ],
+    "id": "89",
+    "text": "Pad Thai stir-fries rice noodles with egg, tamarind, fish sauce, dried shrimp, tofu, and bean sprouts, topped with peanuts and lime. Its signature comes from balancing sweet, sour, salty, and umami notes in a smoky, high-heat wok. It’s customizable and widely enjoyed by locals and travelers alike."
+  },
+  {
+    "name": "Ratatouille",
+    "category": "Vegetable Stew",
+    "origin": "France (Provence)",
+    "ingredients": [
+      "eggplant",
+      "zucchini",
+      "bell pepper",
+      "tomato",
+      "onion",
+      "garlic",
+      "olive oil",
+      "thyme",
+      "salt",
+      "pepper"
+    ],
+    "preparation_method": "Sweat vegetables separately; combine with tomatoes; simmer until tender; finish with herbs and olive oil.",
+    "nutritional_highlights": "High in fiber and antioxidants; low calories; healthy fats from olive oil.",
+    "cultural_significance": "A countryside classic highlighting Provençal produce and hospitality.",
+    "dietary_classifications": [
+      "vegan",
+      "gluten-free"
+    ],
+    "id": "90",
+    "text": "Ratatouille gently stews eggplant, zucchini, bell peppers, onions, and tomatoes in olive oil with thyme and garlic. Low, slow cooking coaxes sweetness and silkiness from summer vegetables. Served warm or at room temperature, it’s a testament to seasonality and simple technique."
+  }
 ]
