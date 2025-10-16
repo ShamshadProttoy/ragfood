@@ -12,8 +12,16 @@ from config import (
     LLM_MODEL,
     OLLAMA_HOST,
     HTTP_TIMEOUT_SECONDS,
+    GROQ_API_KEY,
+    GROQ_MODEL,
 )
 from errors import RAGError, EmbeddingError, VectorDBError
+
+# Add Groq import
+try:
+    from groq import Groq
+except ImportError:
+    Groq = None
 
 
 class RAGEngine:
@@ -137,12 +145,28 @@ class RAGEngine:
             "Answer:"
         )
 
-        # Step 5: Generate answer with Ollama
-        data = self._http_post(
-            "/api/generate",
-            {"model": LLM_MODEL, "prompt": prompt, "stream": False},
-        )
-        return (data.get("response") or "").strip()
+        # Step 5: Generate answer with Groq (streaming)
+        if Groq is None:
+            return "Groq library not installed. Please run 'pip install groq'."
+        if not GROQ_API_KEY:
+            return "Groq API key not set. Please set GROQ_API_KEY environment variable."
+        try:
+            client = Groq(api_key=GROQ_API_KEY)
+            completion = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=1,
+                max_completion_tokens=1024,
+                top_p=1,
+                stream=True,
+                stop=None
+            )
+            answer = ""
+            for chunk in completion:
+                answer += chunk.choices[0].delta.content or ""
+            return answer.strip()
+        except Exception as e:
+            return f"Groq API error: {e}"
 
 
 def main():
