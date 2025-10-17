@@ -1,8 +1,9 @@
 import os
 import json
+import time
 import chromadb
 import requests
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 from config import (
     CHROMA_DIR,
@@ -12,6 +13,8 @@ from config import (
     LLM_MODEL,
     OLLAMA_HOST,
     HTTP_TIMEOUT_SECONDS,
+    HTTP_RETRY_ATTEMPTS,
+    HTTP_RETRY_BACKOFF_SECONDS,
     GROQ_API_KEY,
     GROQ_MODEL,
 )
@@ -35,12 +38,28 @@ class RAGEngine:
 
     def _http_post(self, path: str, payload: Dict[str, Any]) -> Dict[str, Any]:
         url = f"{OLLAMA_HOST}{path}"
-        try:
-            resp = requests.post(url, json=payload, timeout=HTTP_TIMEOUT_SECONDS)
-            resp.raise_for_status()
-            return resp.json()
-        except Exception as e:
-            raise RAGError(f"HTTP request to {url} failed: {e}")
+        last_error: Optional[Exception] = None
+        for attempt in range(1, HTTP_RETRY_ATTEMPTS + 1):
+            try:
+                resp = requests.post(url, json=payload, timeout=HTTP_TIMEOUT_SECONDS)
+                resp.raise_for_status()
+                return resp.json()
+            except (requests.Timeout, requests.ConnectionError) as e:
+                last_error = e
+                if attempt < HTTP_RETRY_ATTEMPTS:
+                    sleep_for = HTTP_RETRY_BACKOFF_SECONDS * attempt
+                    print(
+                        f"⏳ Ollama request timed out (attempt {attempt}/{HTTP_RETRY_ATTEMPTS}). "
+                        f"Retrying in {sleep_for}s..."
+                    )
+                    time.sleep(sleep_for)
+                else:
+                    raise RAGError(
+                        f"HTTP request to {url} failed after {HTTP_RETRY_ATTEMPTS} attempts: {e}"
+                    )
+            except Exception as e:
+                raise RAGError(f"HTTP request to {url} failed: {e}")
+        raise RAGError(f"HTTP request to {url} failed: {last_error}")
 
     def get_embedding(self, text: str) -> List[float]:
         try:
